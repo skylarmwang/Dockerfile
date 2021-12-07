@@ -20,7 +20,6 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 USER root
 
 RUN apt-get -y install gzip
-RUN apt-get -y install shutil
 RUN apt-get -y install os
 RUN apt-get -y install csv
 RUN apt-get -y install linecache
